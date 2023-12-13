@@ -86,17 +86,18 @@ admin.php - страница админ панели
 
 ## Redis
 Команды
-INFO – информация о базе данны
 
 GET admin - возвращение значения по ключу admin - вероятно вся информация о пользователе
 
-CONFIG GET * - используется для чтения параметров конфигурации Redis
-
-KEYS * - возвращение всех ключей из базы
-
 CLIENT LIST - возвращение информацию и статистику о клиентских подключениях
 
-![image](https://github.com/xoz0r/Protected-Inform-Tech/assets/145142526/cb8c7de1-b054-4634-9fd5-47bdaefc84ad)
+CONFIG GET * - используется для чтения параметров конфигурации Redis
+
+SELECT 1 - выбор логическрй базы данных с индексом 1
+
+INFO – информация о базе данны
+
+![image](https://github.com/106maksim/ZIS/assets/71127999/17e73aaa-de54-4cda-8e8d-968af69eea58)
 
 FTP
 Подключение по кредам anonymous/anonymous
