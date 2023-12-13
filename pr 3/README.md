@@ -74,13 +74,13 @@ display ip vpn-instance - отображает конфигурацию серв
 ## Http
 Переход по оставленным в открытом доступе страницам
 
-robots.txt
-
 login.php - страница логина
 
-admin.php - страница админ панели
+robots.txt
 
 sitemap.xml - карта сайта
+
+admin.php - страница админ панели
 
 ![image](https://github.com/106maksim/ZIS/assets/71127999/b639d8fa-48f8-47cd-a37b-1d3ac4647dc1)
 
