@@ -37,31 +37,27 @@ docker-compose logs -f
 # Посмотрим активность злоумышленника через логи 
 ## SSH
 подключение по кредам root/root
-```
-honeypot_1 | services > ssh > category=ssh, date=2023-10-31
-18:37:54.732135644 +0000 UTC m=+93.988681664, destinationip=172.20.0.2, destination-port=8022, sensor=services, sourceip=172.20.0.1, source-port=59448, ssh.password=root,
-ssh.sessionid=cl0kj0gdkej0009e49ug, ssh.username=root,
-token=cl0ki90dkej0009e49sg, type=password-authentication
-```
+
+![image](https://github.com/106maksim/ZIS/assets/71127999/06094b34-d97e-4fa9-884c-12974ba2992c)
+
 ## Выполнение команд
 “pwd” - выводит полный путь от корневого каталога к текущему рабочему каталогу
 
 “ip a” - информация о подключениях хост
 
+“crontab -l” - показать содержимое файла “crontab”
+
 “ls -la” - отображает все файлы в директории включая скрытые
 
 “cat /etc/shadow“ - отображает содержимое файла “shadow”
 
-![image](https://github.com/xoz0r/Protected-Inform-Tech/assets/145142526/ec986fa9-d587-407e-915e-14e3e5e1aab5)
+![image](https://github.com/106maksim/ZIS/assets/71127999/71a67539-9e2e-4a72-b11e-4634594af694)
 
 ## Telnet
 подключение по кредам root/root
-```
-honeypot_1 | services > telnet > category=telnet, date=2023-10-31
-18:38:29.740860099 +0000 UTC m=+128.997406109, destinationip=172.20.0.2, destination-port=8023, sensor=services, sourceip=172.20.0.1, source-port=54782, telnet.password=root,
-telnet.sessionid=cl0kj98dkej0009e49v0, telnet.username=root,
-token=cl0ki90dkej0009e49sg, type=password-authentication
-```
+
+![image](https://github.com/106maksim/ZIS/assets/71127999/0a6ba81c-d455-4981-bb71-59e4ac9b159d)
+
 ## Выполнение команд
 display arp interface GigabitEthernet 0/0/1 – ARP записи, относящиеся к указанному интерфейсу
 
