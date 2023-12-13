@@ -1,11 +1,4 @@
-# Отчет выполнил студент группы ББМО-01-23 Бакин Д.И.
-
-### Загрузка
-
-```
-git clone https://github.com/Ivanhahanov/InformtionsSecurityMethodsAndTools.git
-```
-![Загрузка](https://github.com/xoz0r/Protected-Inform-Tech/assets/145142526/ee4fe80a-8b48-4f62-8eb5-5fe4bb7dd9c0)
+# Отчет выполнил студент группы ББМО-01-23 Куров М.В.
 
 ### Развертывание
 
@@ -15,7 +8,8 @@ git clone https://github.com/Ivanhahanov/InformtionsSecurityMethodsAndTools.git
 cd Deception
 docker-compose up
 ```
-![Развертывание 1](https://github.com/xoz0r/Protected-Inform-Tech/assets/145142526/c88063f3-176f-48dd-bb11-8a2d3a621c16)
+
+![развёртывание 1](https://github.com/106maksim/ZIS/assets/71127999/a78c2ab0-8d77-483a-867d-3bb583d43457)
 
 Запускаем Honeypot для отслеживания активности злоумышленника
 
@@ -25,7 +19,8 @@ docker-compose up
 chmod +x hackersActivity
 ./hackersActivity
 ```
-![Развертывание 2](https://github.com/xoz0r/Protected-Inform-Tech/assets/145142526/1664979a-0553-44ce-a253-9eafd63321da)
+
+![развёртывание 2](https://github.com/106maksim/ZIS/assets/71127999/5effb143-0d9c-4ea8-90a4-a266d81dbdf5)
 
 Запускаем файл, который будет имитировать активность злоумышленника
 
@@ -35,7 +30,7 @@ chmod +x hackersActivity
 docker-compose logs -f
 ```
 
-![Развертывание 3](https://github.com/xoz0r/Protected-Inform-Tech/assets/145142526/f2399abb-9134-4208-8834-45ab31cf60e8)
+![развёртывание 3](https://github.com/106maksim/ZIS/assets/71127999/3575277f-9338-4c3e-89aa-eacadb4bf844)
 
 Наблюдаем за действиями злоумышленника, которые выводит Honeypot
 
