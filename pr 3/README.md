@@ -82,7 +82,7 @@ admin.php - страница админ панели
 
 sitemap.xml - карта сайта
 
-![image](https://github.com/xoz0r/Protected-Inform-Tech/assets/145142526/25c3f49a-8225-45e4-b7de-7ec927b20453)
+![image](https://github.com/106maksim/ZIS/assets/71127999/b639d8fa-48f8-47cd-a37b-1d3ac4647dc1)
 
 ## Redis
 Команды
