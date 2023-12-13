@@ -102,20 +102,19 @@ INFO – информация о базе данны
 FTP
 Подключение по кредам anonymous/anonymous
 
-![image](https://github.com/xoz0r/Protected-Inform-Tech/assets/145142526/d2a31f93-4295-42e7-8807-4a8b9d1f347a)
+![image](https://github.com/106maksim/ZIS/assets/71127999/00e86c37-b99b-438c-95d1-c1f0cbab1ac8)
 
 Выполняемые команды
 FEAT – показывает дополнительные команды, поддерживаемые сервером
 
-APPE /exploit.sh – загружает файл exploit.sh
+HELP - выводит команды FTP
 
 PWD – получает имя текущего каталога
 
-STOR /etc/passwd – заменяет файл passwd на хосте
-
-HELP - выводит команды FTP
-
 LIST -l – выводит список файлов
 
-![image](https://github.com/xoz0r/Protected-Inform-Tech/assets/145142526/d081427f-f68f-473a-aefd-764079ac03a5)
+APPE /exploit.sh – загружает файл exploit.sh
 
+STOR /etc/passwd – заменяет файл passwd на хосте
+
+![image](https://github.com/106maksim/ZIS/assets/71127999/c71616da-e736-44c1-9a0e-85c418a9534d)
