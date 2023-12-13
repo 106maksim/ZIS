@@ -59,17 +59,17 @@ docker-compose logs -f
 ![image](https://github.com/106maksim/ZIS/assets/71127999/0a6ba81c-d455-4981-bb71-59e4ac9b159d)
 
 ## Выполнение команд
-display arp interface GigabitEthernet 0/0/1 – ARP записи, относящиеся к указанному интерфейсу
-
-display ip vpn-instance - отображает конфигурацию сервера VPN
-
-display arp - все ARP записи
-
-display session limit vpn-instance vpna – количество возможных подключений к VPN
+system-view - переход в системный режим из пользовательского режима.
 
 display snmp-server arp-sync table – ARP записи, синхронизированные через SNMP
 
-![image](https://github.com/xoz0r/Protected-Inform-Tech/assets/145142526/db425335-4755-4de0-9eb0-96e5aa79e1d5)
+display arp interface GigabitEthernet 0/0/1 – ARP записи, относящиеся к указанному интерфейсу
+
+display ipsec-tunnel limit vpn-instance vpna - количество возможных подключений к VPN
+
+display ip vpn-instance - отображает конфигурацию сервера VPN
+
+![image](https://github.com/106maksim/ZIS/assets/71127999/f697290a-d88e-4e8b-b94e-b33a56dacedc)
 
 ## Http
 Переход по оставленным в открытом доступе страницам
